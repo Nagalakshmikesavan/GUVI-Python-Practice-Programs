@@ -1,0 +1,6 @@
+n,k=map(int,input().split())
+n=map(int,input().split())
+a=set(n)
+k=map(int,input().split())
+b=set(k)
+print(b.issubset(a))
