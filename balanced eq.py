@@ -9,6 +9,6 @@ for i in n:
 		c2+=1
 	
 if c1==c2:
-	print('YEs')
+	print('yes')
 else:
 	print('no')
