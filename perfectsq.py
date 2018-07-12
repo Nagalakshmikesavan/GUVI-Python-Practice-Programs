@@ -1,5 +1,4 @@
-n=int(input())
-m=int(input())
+n,m=map(int,input().split())
 c=0
 l=[]
 for i in range(n,m+1):
@@ -9,3 +8,4 @@ for j in range(n,m+1):
 	if j in l:
 		c=c+1
 print(c)
+		
