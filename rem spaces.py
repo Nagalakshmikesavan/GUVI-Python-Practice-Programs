@@ -7,5 +7,4 @@ for i in b:
 	
 	else:
 		a=a+i
-print(a)
-	
+print(a.strip())
