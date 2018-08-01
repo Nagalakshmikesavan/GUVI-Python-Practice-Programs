@@ -7,7 +7,7 @@ for i in range(0,n):
 	l.append(a[i])
 	
 for i in range(0,n):
-	for j in range(0,n):
+	for j in range(i+1,n):
 		if l[i]+l[j]==k:
 			lis.append(l[i])
 if lis==[]:
