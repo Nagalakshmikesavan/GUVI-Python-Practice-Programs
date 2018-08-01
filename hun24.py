@@ -11,6 +11,6 @@ for i in range(0,n):
 		if l[i]+l[j]==k:
 			lis.append(l[i])
 if lis==[]:
-	print('no')
+	print('NO')
 else:
-	print('yes')
+	print('YES')
