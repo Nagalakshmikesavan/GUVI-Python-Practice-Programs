@@ -1,5 +1,5 @@
-original = str(raw_input('Enter a word:'))
-if (original == "a" or "e" or "i" or "o" or "u"):
-        print "vowel"
+a=input("enter a letter:")
+if a.lower() in ['a','e','i','o','u']:
+        print("vowel")
 else:
-        print "consonant"
+        print("consonant")
